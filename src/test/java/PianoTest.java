@@ -10,7 +10,7 @@ public class PianoTest {
 
     @Before
     public void before(){
-        piano = new Piano("upright", "black", 500.00, 800.00);
+        piano = new Piano("upright", "black", 500.00, 800.00, 88);
     }
 
     @Test
@@ -36,6 +36,16 @@ public class PianoTest {
     @Test
     public void canPlayPiano(){
         assertEquals("I'm an 88 string folk guitar", piano.play());
+    }
+
+    @Test
+    public void hasNumberOfKeys() {
+        assertEquals(88, piano.getNumberOfKeys());
+    }
+
+    @Test
+    public void getMarkUp(){
+        assertEquals(300.00, piano.getMarkUp(), 0.01);
     }
 
 }
