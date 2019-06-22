@@ -52,4 +52,11 @@ public class MusicStoreTest {
         assertEquals(1, musicStore.inventoryCount());
     }
 
+    @Test
+    public void canCalculateProfit() {
+        musicStore.addToInventory(piano);
+        musicStore.addToInventory(sheetMusic);
+        musicStore.addToInventory(trombone);
+        assertEquals(502.00, musicStore.calculateProfit(), 0.01);
+    }
 }

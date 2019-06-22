@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e290df2-6022-4f10-a6c2-ef24f2049920" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MusicStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Piano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Trombone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Trombone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/instruments/Guitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/instruments/Guitar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/instruments/IPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/instruments/IPlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/instruments/Instrument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/instruments/Instrument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/instruments/Piano.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/instruments/Piano.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/instruments/Trombone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/instruments/Trombone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/GuitarStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shop/GuitarStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/ISell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shop/ISell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/SheetMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shop/SheetMusic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shop/Store.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GuitarStringsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GuitarStringsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GuitarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GuitarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PianoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PianoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SheetMusicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SheetMusicTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TromboneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TromboneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MusicStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MusicStoreTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,22 +48,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MusicStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="157">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
                 <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MusicStoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="312">
+              <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#805#806#0" expanded="true" />
@@ -344,7 +322,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561221509713" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561223592959" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -401,9 +379,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_RaysMusicExchange - 2019.06.21 at 17h 13m 16s.xml">
-      <configuration name="All in RaysMusicExchange" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_RaysMusicExchange - 2019.06.22 at 13h 45m 58s.xml">
       <configuration name="All in RaysMusicExchange" configurationId="JUnit" />
     </history-entry>
@@ -429,6 +404,9 @@
       <configuration name="All in RaysMusicExchange" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_RaysMusicExchange - 2019.06.22 at 17h 07m 09s.xml">
+      <configuration name="All in RaysMusicExchange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_RaysMusicExchange - 2019.06.22 at 17h 38m 33s.xml">
       <configuration name="All in RaysMusicExchange" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -756,30 +734,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MusicStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="157">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
             <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
             <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MusicStoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="312">
+          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#805#806#0" expanded="true" />

@@ -31,4 +31,12 @@ public class MusicStore {
         this.inventory.remove(inventory);
     }
 
+    public double calculateProfit(){
+        double profit = 0;
+        for(ISell inventory: this.inventory){
+            profit += inventory.calculateMarkUp();
+        }
+        return profit;
+    }
+
 }
