@@ -20,4 +20,8 @@ public class Trombone extends Instrument{
     public void setValves(String valves) {
         this.valves = valves;
     }
+
+    public double calculateMarkUp() {
+        return this.getPriceSell() - this.getPriceBuy();
+    }
 }

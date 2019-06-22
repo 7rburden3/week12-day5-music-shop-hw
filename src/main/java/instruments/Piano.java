@@ -17,4 +17,8 @@ public class Piano extends Instrument{
         return "I'm an 88 string folk guitar";
     }
 
+    public double calculateMarkUp() {
+        return this.getPriceSell() - this.getPriceBuy();
+    }
+
 }

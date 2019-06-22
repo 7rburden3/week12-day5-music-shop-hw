@@ -1,5 +1,7 @@
 package shop;
 
+import instruments.Instrument;
+
 public abstract class Store implements ISell{
 
     private String type;
