@@ -4,8 +4,8 @@ public class Trombone extends Instrument{
 
     private String valves;
 
-    public Trombone(String type, String colour, double priceBuy, double priceSell, String valves){
-        super(type, colour, priceBuy, priceSell);
+    public Trombone(InstrumentType instrumentType, String type, String colour, double priceBuy, double priceSell, String valves){
+        super(instrumentType, type, colour, priceBuy, priceSell);
         this.valves = valves;
     }
 

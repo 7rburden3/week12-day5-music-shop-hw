@@ -1,3 +1,4 @@
+import instruments.InstrumentType;
 import instruments.Piano;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +11,7 @@ public class PianoTest {
 
     @Before
     public void before(){
-        piano = new Piano("upright", "black", 500.00, 800.00, 88);
+        piano = new Piano(InstrumentType.KEYBOARD,"upright", "black", 500.00, 800.00, 88);
     }
 
     @Test

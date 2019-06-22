@@ -1,4 +1,5 @@
 import instruments.Guitar;
+import instruments.InstrumentType;
 import instruments.Piano;
 import instruments.Trombone;
 import org.junit.Before;
@@ -24,10 +25,10 @@ public class MusicStoreTest {
     @Before
     public void before(){
         musicStore = new MusicStore();
-        trombone = new Trombone("Bass", "Brass", 300.00, 500.00, "I have one big valve");
+        trombone = new Trombone(InstrumentType.BRASS, "Bass", "Brass", 300.00, 500.00, "I have one big valve");
         sheetMusic = new SheetMusic("Classical", 1.00, 3.00);
         guitarStrings = new GuitarStrings("Steel", 5.00, 12.00);
-        piano = new Piano("upright", "black", 500.00, 800.00, 88);
+        piano = new Piano(InstrumentType.KEYBOARD,"upright", "black", 500.00, 800.00, 88);
 
     }
 

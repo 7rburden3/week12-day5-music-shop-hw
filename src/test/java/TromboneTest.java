@@ -1,3 +1,4 @@
+import instruments.InstrumentType;
 import instruments.Trombone;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +11,7 @@ public class TromboneTest {
 
     @Before
     public void before(){
-        trombone = new Trombone("Bass", "Brass", 300.00, 500.00, "I have one big valve");
+        trombone = new Trombone(InstrumentType.BRASS, "Bass", "Brass", 300.00, 500.00, "I have one big valve");
     }
 
     @Test
