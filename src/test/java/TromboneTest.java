@@ -20,6 +20,11 @@ public class TromboneTest {
     }
 
     @Test
+    public void hasInstrumentType(){
+        assertEquals(InstrumentType.BRASS, trombone.getInstrumentType());
+    }
+
+    @Test
     public void getColour() {
         assertEquals("Brass", trombone.getColour());
     }

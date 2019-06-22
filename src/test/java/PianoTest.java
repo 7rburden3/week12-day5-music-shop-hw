@@ -20,6 +20,11 @@ public class PianoTest {
     }
 
     @Test
+    public void hasInstrumentType(){
+        assertEquals(InstrumentType.KEYBOARD, piano.getInstrumentType());
+    }
+
+    @Test
     public void hasColour(){
         assertEquals("black", piano.getColour());
     }
