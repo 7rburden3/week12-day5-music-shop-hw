@@ -48,9 +48,9 @@ public class MusicStoreTest {
     public void canRemoveInventoryFromMusicStore(){
         musicStore.addToInventory(piano);
         musicStore.addToInventory(sheetMusic);
-        musicStore.removeFromInventory(piano);
+        musicStore.removeFromInventory(sheetMusic);
         //System.out.println(musicStore.getInventory());
-        assertEquals(1, musicStore.inventoryCount());
+        assertEquals(piano, musicStore.getInventory().get(0));
     }
 
     @Test
